@@ -14,7 +14,9 @@ public class Controller : MonoBehaviour {
 	public LayerMask whatIsGround;
 	private bool grounded;
 	private Animator anim;
-
+	public Transform firePoint;
+	public GameObject bullet;
+	public KeyCode s;
 	// Use this for initialization
 	void Start()
 	{
