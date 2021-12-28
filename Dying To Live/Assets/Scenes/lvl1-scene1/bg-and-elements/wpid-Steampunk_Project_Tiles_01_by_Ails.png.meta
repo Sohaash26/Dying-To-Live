@@ -1,27 +1,15 @@
 fileFormatVersion: 2
 guid: c4403a97c4c335640936aa3392bbb5c3
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 5008413142286463349
-    second: wpid-Steampunk_Project_Tiles_01_by_Ails_0
-  - first:
-      213: 9161185174818522879
-    second: wpid-Steampunk_Project_Tiles_01_by_Ails_1
-  - first:
-      213: 1436485405474421181
-    second: wpid-Steampunk_Project_Tiles_01_by_Ails_2
-  - first:
-      213: -266569663785799615
-    second: wpid-Steampunk_Project_Tiles_01_by_Ails_3
-  - first:
-      213: 7946332509005630885
-    second: wpid-Steampunk_Project_Tiles_01_by_Ails_4
-  - first:
-      213: -6697686339243384248
-    second: wpid-Steampunk_Project_Tiles_01_by_Ails_5
+  fileIDToRecycleName:
+    21300000: wpid-Steampunk_Project_Tiles_01_by_Ails_0
+    21300002: wpid-Steampunk_Project_Tiles_01_by_Ails_1
+    21300004: wpid-Steampunk_Project_Tiles_01_by_Ails_2
+    21300006: wpid-Steampunk_Project_Tiles_01_by_Ails_3
+    21300008: wpid-Steampunk_Project_Tiles_01_by_Ails_4
+    21300010: wpid-Steampunk_Project_Tiles_01_by_Ails_5
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 7
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -41,7 +29,6 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
-  vTOnly: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -73,15 +60,11 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
-  flipbookRows: 1
-  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
-  ignorePngGamma: 0
-  applyGammaDecoding: 0
   platformSettings:
-  - serializedVersion: 3
+  - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -92,8 +75,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 2
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -104,7 +86,6 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -124,7 +105,6 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 571f16a9735718540800000000000000
-      internalID: 5008413142286463349
       vertices: []
       indices: 
       edges: []
@@ -145,7 +125,6 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: ff602a2e061132f70800000000000000
-      internalID: 9161185174818522879
       vertices: []
       indices: 
       edges: []
@@ -166,7 +145,6 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: db9f55e8ddb6fe310800000000000000
-      internalID: 1436485405474421181
       vertices: []
       indices: 
       edges: []
@@ -187,7 +165,6 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 140f62a9d44fc4cf0800000000000000
-      internalID: -266569663785799615
       vertices: []
       indices: 
       edges: []
@@ -208,7 +185,6 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 5ad4b62c05b074e60800000000000000
-      internalID: 7946332509005630885
       vertices: []
       indices: 
       edges: []
@@ -229,7 +205,6 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 8426964a2c90d03a0800000000000000
-      internalID: -6697686339243384248
       vertices: []
       indices: 
       edges: []
@@ -238,12 +213,10 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
-    secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
