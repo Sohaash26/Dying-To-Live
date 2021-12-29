@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class PlayerStats : MonoBehaviour {
 
 	public int health = 6;
@@ -13,6 +13,9 @@ public class PlayerStats : MonoBehaviour {
 	public float immunityDuration = 1.5f;
 	private float immunityTime = 0f;
 	public int coinsCollected = 0;
+	public Text scoreUI;
+	public Slider healthUI;
+
 	// Use this for initialization
 	void Start()
 	{
@@ -22,6 +25,8 @@ public class PlayerStats : MonoBehaviour {
 	// Update is called once per frame
 	void Update()
 	{
+		healthUI.value = health;
+		scoreUI.text = "" + coinsCollected;
 		if (this.isImmune == true)
 		{
 			SpriteFlicker();
