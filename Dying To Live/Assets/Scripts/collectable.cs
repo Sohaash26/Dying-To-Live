@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemySpawn : MonoBehaviour {
+public class collectable : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
@@ -13,12 +13,4 @@ public class EnemySpawn : MonoBehaviour {
 	void Update () {
 		
 	}
-
-	void OnTriggerEnter2D(Collider2D other)
-    {
-		if (other.tag =="Player")
-        {
-			FindObjectOfType<lvlm>().SpawnEnemy();
-        }
-    }
 }
